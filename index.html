@@ -1,28 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Saud - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+<title>Saud | Web & App Developer</title>
+
+<meta name="description" content="Portfolio of Saud - Web Developer & Flutter App Developer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Social Preview (WhatsApp / Instagram link preview) -->
+<meta property="og:title" content="Saud Portfolio">
+<meta property="og:description" content="Web & App Developer Portfolio">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <div class="card">
+<div class="bg"></div>
 
-        <img src="myphoto.jpg" alt="My Photo" class="profile">
+<header>
+    <div class="logo">Saud.dev</div>
 
-        <h1>Hi, I'm Saud 👋</h1>
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.html" target="_blank">Resume</a>
+    </nav>
+</header>
 
-        <p class="intro">
-            I am a student and I am learning web development and app development.
-            I love creating websites, apps, and improving my coding skills.
-            My goal is to become a skilled software developer and build real-world projects.
-        </p>
+<section class="hero">
 
-        <button onclick="sayHello()">Say Hello</button>
-        <p id="msg"></p>
+    <img src="myphoto.jpg" class="profile">
 
+    <h1>Saud Matin Tambatkar</h1>
+    <p>Web Developer | Flutter Developer | Builder</p>
+
+    <a href="#projects" class="btn">View Work</a>
+
+</section>
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+
+    <p>HTML</p><div class="bar"><div class="fill html"></div></div>
+    <p>CSS</p><div class="bar"><div class="fill css"></div></div>
+    <p>JavaScript</p><div class="bar"><div class="fill js"></div></div>
+    <p>Flutter</p><div class="bar"><div class="fill flutter"></div></div>
+</section>
+
+<section id="projects" class="card">
+
+<h2>Projects</h2>
+
+<div class="project-grid">
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Responsive developer portfolio hosted on GitHub Pages.</p>
     </div>
 
-    <script src="script.js"></script>
+    <div class="project">
+        <h3>Flutter App Idea</h3>
+        <p>Cross-platform mobile UI design project.</p>
+    </div>
+
+</div>
+
+</section>
+
+<section id="contact" class="card">
+
+<h2>Contact</h2>
+
+<p>Email: saudtambatkar74@gmail.com</p>
+<p>Phone: +91 7798777477</p>
+
+<a class="btn" href="https://wa.me/917798777477">WhatsApp</a>
+
+</section>
+
 </body>
 </html>
